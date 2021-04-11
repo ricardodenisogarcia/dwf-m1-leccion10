@@ -1,0 +1,7 @@
+var lista = []
+while (lista.length <=130){
+    var aleatorio = (Math.random() * 100) + (Math.random() * 10);
+    var aleatorioPar = Math.floor(aleatorio);
+    lista.push(aleatorioPar);   
+}
+console.table(lista);
